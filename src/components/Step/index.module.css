@@ -1,0 +1,100 @@
+.step {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .step h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #333;
+  }
+  
+  .step_content {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .left {
+    flex: 1;
+    max-width: 378px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+  }
+
+  .left div p{
+    color: #000 !important;
+  }
+  
+  .left div {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .left div:hover {
+    background-color: #28a745;
+    color: #ffffff !important;
+  }
+
+  .left div p:hover{
+    color: #ffffff !important;
+  }
+  
+  .right {
+    flex: 2;
+    max-width: 700px;
+    background-color: #ffffff;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+  
+  .right h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .right p {
+    margin-bottom: 1.5rem;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .check_content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .check_content div {
+    display: flex;
+    align-items: center;
+    font-size: 0.95rem;
+    color: #333;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+  }
+  
+  .check_content span {
+    color: #28a745;
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+  }
+  
+.backPicture{
+    width: 630;
+    height: 199px;
+    background-image: url(../../assets/hireimg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+  

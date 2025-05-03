@@ -1,0 +1,117 @@
+.topTop {
+    background-color: #111827;
+    color: #ffffff;
+    padding: 3rem 4rem 1rem 4rem;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  
+  .logoCont {
+    flex: 1 1 250px;
+    max-width: 300px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .logo span:first-child {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #2FC980;
+    color: #ffffff; /* lightning icon */
+    font-size: 1.5rem;
+  }
+  
+  .logoCont p {
+    color: #d1d5db;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+  }
+  
+  .logoCont ul {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .logoCont li {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    color: #2FC980;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .logoCont li:hover {
+    transform: scale(1.2);
+    color: #2FC980;
+  }
+  
+  .quickLinks, .Service, .Contact {
+    flex: 1 1 180px;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #ffffff;
+  }
+  
+  p {
+    margin: 0.5rem 0;
+    font-size: 0.9rem;
+    color: #d1d5db;
+    cursor: pointer;
+    transition: color 0.2s ease;
+  }
+  
+  p:hover {
+    color: #ffffff;
+  }
+  
+  .Contact p span {
+    margin-right: 0.5rem;
+    vertical-align: middle;
+    color: #2FC980;
+  }
+
+
+  .footerContainer {
+    background-color: #2FC980; /* dark background */
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid #333;
+  }
+  
+  .footerText {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    letter-spacing: 0.5px;
+  }
+  

@@ -1,0 +1,51 @@
+.card {
+    width: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card_img {
+    width: 100%;
+    height: 200px; /* or use auto for responsive */
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .card_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* cover, contain, or fill based on your need */
+    display: block;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+  }
+  
+  .text {
+    padding: 16px;
+    text-align: left;
+  }
+  
+  .text h3 {
+    margin: 0 0 4px;
+    font-size: 1.2rem;
+  }
+  
+  .text h6 {
+    margin: 0 0 8px;
+    font-weight: normal;
+    color: #777;
+  }
+  
+  .text p {
+    margin: 0;
+    color: #444;
+    font-size: 0.9rem;
+  }
+  

@@ -1,0 +1,22 @@
+.hiring {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .hiring h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hiring p {
+    font-size: 1.1rem;
+    color: #555;
+  }
+  
+  .circleContent {
+    display: flex;
+    justify-content: center;
+  }
+  
