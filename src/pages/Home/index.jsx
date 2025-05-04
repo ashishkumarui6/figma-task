@@ -40,8 +40,11 @@ const Home = () => {
           </div>
 
           <div className={styles.right}>
-            <h2>Create Your Team</h2>
-            <h4>Lorem Ipsum is simply dummy text of the printing</h4>
+            <div className={styles.top}>
+              {" "}
+              <h2 style={{ color: "#000" }}>Create Your Team</h2>
+              <h4>Lorem Ipsum is simply dummy text of the printing</h4>
+            </div>
             <form className={styles.form}>
               <div className={styles.formGroup}>
                 <div>
@@ -70,6 +73,12 @@ const Home = () => {
                   <textarea id="project" name="project" rows="5"></textarea>
                 </div>
               </div>
+              <button className={styles.hireButton}>
+                Hire Software Developer
+                <span className={styles.icon}>
+                  <MdArrowOutward />
+                </span>
+              </button>
             </form>
           </div>
         </div>

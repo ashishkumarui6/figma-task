@@ -82,21 +82,31 @@
     flex: 1;
     min-width: 300px;
     background: #fff;
-    padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   }
+
+  .right .top{
+    padding: 1rem;
+    background-color: #2DC67D0F;
+  }
   
   .right h2 {
+    text-align: center;
     font-size: 1.8rem;
   }
   
   .right h4 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 100%;
     margin-top: 0.5rem;
     color: #666;
   }
   
   .form {
+    margin: 1.5rem;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -114,13 +124,41 @@
     display: flex;
     flex-direction: column;
   }
+  .formGroup > div label {
+    margin-bottom: 6px;
+  }
   
   input,
   textarea {
     padding: 0.75rem;
     border: 1px solid #ccc;
-    border-radius: 6px;
     font-size: 1rem;
   }
+
+  .hireButton {
+    background-color: #FF252F87; /* Deep blue */
+    color: #ffffff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  .icon {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  
   
   

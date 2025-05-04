@@ -1,7 +1,12 @@
+
+.content{
+  padding: 4rem 2rem;
+  background-color: #f9fafc;
+  text-align: center;
+}
 .technologyCompetency {
-    padding: 4rem 2rem;
-    background-color: #f9fafc;
-    text-align: center;
+  width: 1240px;
+  margin: 0 auto;
   }
   
   .technologyCompetency h2 {
